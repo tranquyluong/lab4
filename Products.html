@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container mx-auto max-w-6xl p-4">
+        <div class="md:flex justify-between items-center mt-4">
+            <div>
+                <h1 class=" text-3xl font-bold ">Fudo <span class="text-red-600">.</span></h1>
+            </div>
+            <div class="md:text-lg font-semibold text-slate-700 pt-8 md:pt-12">
+                <a href="index.html" class="mx-2 md:mx-6 hovr:text-red-500">Home</a>
+                <a href="Products.html" class="md:mx-6 hover:text-red-500">Products</a>
+                <a href="About Us.html" class=" mx-2 md:mx-6 hover:text-red-500">About Us</a>
+                <a href="Contact Us.html" class=" md:mx-6 hover:text-red-500">Contact Us</a>
+            </div>
+            <div class="flex space-x-4">
+                <a href="#icon" class="pt-3"><svg xmlns="http://www.w3.org/2000/svg " class="h-7 w-7" fill="none "
+                        viewBox="0 0 24 24 " stroke="currentColor " stroke-width="2 ">
+                        <path stroke-linecap="round" stroke-linejoin="round "
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z " />
+                    </svg></a>
+                <button class="sm:text-xs border-2 border-red-500 p-2 rounded">Sign In</button>
+                <button class="sm:text-xs  bg-red-500 font-bold p-2 rounded">Sign Up</button>
+            </div>
+
+        </div>
+        <div class=" grid  md:grid-cols-2 md:gap-8 my-10">
+            <div>
+                <h2 class="font-bold text-[40px]">Big and Juicy Wagyu Beef Cheeseburger</h2>
+                <p class="text-red-600 pt-4 text-[40px]">$30</p>
+                <p class="pt-4 text-[18px]">Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                    ac turpis
+                    egestas.
+                    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                    amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                <form class="flex space-x-4 pt-4">
+                    <input type="text" placeholder="Quantity" class="bg-gray-100 border-2 border-gray-300 pl-5">
+                    <button class="bg-black p-2 text-white rounded text-[14px]">Add To Cart</button>
+                </form>
+
+            </div>
+            <div>
+                <img src="./img/asm2.png" alt="" class="rounded-2xl">
+            </div>
+        </div>
+        <h2 class="font-bold mt-4">Related Products</h2>
+        <div class="grid md:grid-clos-3 md:gap-4 md:grid-cols-3 md:gap8 mt-4 my-8" id="products">
+            <div>
+                <img src="./img/image 26 (3).png " alt="" class="rounded-2xl ">
+                <p class="mt-2">Fresh and Healthy Mixed Mayonnaise Salad</p>
+                <p class="text-red-600 mt-2">$30</p>
+                <button class=" mt-2 bg-black text-white w-full rounded">Add To Cart</button>
+            </div>
+            <div>
+                <img src="./img/image 26 (3).png " alt="" class="rounded-2xl ">
+                <p class="mt-2">Fresh and Healthy Mixed Mayonnaise Salad</p>
+                <p class="text-red-600 mt-2">$30</p>
+                <button class=" mt-2 bg-black text-white w-full rounded">Add To Cart</button>
+            </div>
+            <div>
+                <img src="./img/image 26 (3).png " alt="" class="rounded-2xl ">
+                <p class="mt-2">Fresh and Healthy Mixed Mayonnaise Salad</p>
+                <p class="text-red-600 mt-2">$30</p>
+                <button class=" mt-2 bg-black text-white w-full rounded-2xl">Add To Cart</button>
+            </div>
+        </div>
+        <hr class="my-8">
+        <div class=" md:flex justify-between  mt-4 mb-4 ">
+            <div>
+                <h1 class="font-bold text-2xl">Fudo <span class="text-red-600">.</span></h1>
+            </div>
+            <div>
+                <ul class="font-bold space-x-4">
+                    <a href="">Home</a>
+                    <a href="">Products</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/data1.js"></script>
+
+</body>
+
+</html>
